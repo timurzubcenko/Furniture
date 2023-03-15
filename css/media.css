@@ -27,7 +27,7 @@
         position: relative;
         width: 30px;
         height: 20px;
-        z-index: 3;
+        z-index: 11;
     }
 
     .header_burger span {
@@ -83,6 +83,7 @@
         height: 100%;
         background-color: rgb(28, 218, 192);
         transition: all 0.3s ease 0s;
+        z-index: 10;
     }
 
     .header_menu.active {
