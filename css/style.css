@@ -1,0 +1,601 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 0 20px;
+}
+
+.in_header {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.in_header .logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+
+    color: #054C73;
+}
+
+.in_header .header_list {
+    list-style: none;
+    display: flex;
+    gap: 73px;
+}
+
+.in_header .header_list li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Font / Color */
+
+    color: #333333;
+    cursor: pointer;
+}
+
+.center_header {
+    background-image: url('../img/scandinavian-interior-mockup-wall-decal-background\ 1.png');
+    height: 749px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.adaptive {
+    height: 100%;
+    padding: 0 20px;
+}
+
+.in_center_header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.in_center_header .block {
+    background: #DFE9F460;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.in_center_header .block h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 3px;
+
+    /* Font / Color */
+
+    color: #333333;
+    margin: 0 0 20px;
+}
+
+.in_center_header .block h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 65px;
+    /* or 125% */
+
+
+    /* Primary / color */
+
+    color: #054C73;
+    max-width: 450px;
+    margin: 0 0 20px;
+}
+
+.in_center_header .block p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 39px;
+    /* or 217% */
+
+
+    /* Font / Color */
+
+    color: #333333;
+    max-width: 546px;
+    margin: 0 0 30px;
+}
+
+.in_center_header .block .btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background: #054C73;
+    border-radius: 50px;
+    text-align: center;
+    padding: 25px 72px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.info_section {
+    background: #F2F5FF;
+    padding: 0 20px;
+}
+
+.info_section .items {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+
+.info_section .item {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.info_section .txt {}
+
+.info_section .txt h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    /* Font / Color */
+
+    color: #333333;
+    margin: 0 0 6px;
+}
+
+.info_section .txt p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    /* Font / Color */
+
+    color: #333333;
+}
+
+
+
+.section_2 {
+    padding: 0 20px;
+}
+
+.in_section_2 {
+    padding: 60px 0;
+}
+
+.in_section_2 .title_sec_2 {
+    text-align: center;
+}
+
+.in_section_2 .title_sec_2 h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    /* Font / Color */
+
+    color: #333333;
+    margin: 0 0 20px;
+}
+
+.in_section_2 .title_sec_2 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    /* Font / Color1 */
+
+    color: #666666;
+    margin: 0 0 40px;
+}
+
+.in_section_2 .images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+.in_section_2 .images img {
+    width: 100%;
+}
+
+.in_section_2 .images .img-1,
+.img-3 {
+    margin-top: 40px;
+}
+
+
+
+.section_3 {
+    background: #F2F5FF;
+    padding: 0 20px;
+}
+
+.in_section_3 {
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.in_section_3 .block-txt {}
+
+.in_section_3 .block-txt h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+
+    /* Font / Color */
+
+    color: #333333;
+    margin: 0 0 20px;
+}
+
+.in_section_3 .block-txt p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    /* or 195% */
+
+
+    /* Font / Color1 */
+
+    color: #666666;
+    margin: 0 0 30px;
+    max-width: 514px;
+}
+
+.in_section_3 .block-txt .btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background: #054C73;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 24px 57px;
+    cursor: pointer;
+}
+
+.in_section_3 .block-img {
+    position: relative;
+    padding-right: 70px;
+    z-index: 0;
+}
+
+.in_section_3 .block-img img {
+    width: 100%;
+}
+
+.in_section_3 .block-circle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.in_section_3 .circle {
+    width: 372px;
+    height: 372px;
+    background: #09513B;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.section_4 {
+    padding: 0 20px;
+    border-bottom: 1px solid #D7D6D6;
+}
+
+.in_section_4 {
+    padding: 60px 0;
+}
+
+.in_section_4 .title {
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.in_section_4 .title h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    /* Font / Color */
+
+    color: #333333;
+    margin: 0 0 20px;
+}
+
+.in_section_4 .title p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    /* Font / Color1 */
+
+    color: #666666;
+}
+
+.in_section_4 .cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 10px;
+}
+
+.in_section_4 .card {}
+
+.in_section_4 .card img {
+    width: 100%;
+    margin: 0 0 25px;
+}
+
+.in_section_4 .name {}
+
+
+
+.section_5 {
+    padding: 0 20px;
+}
+
+.in_section_5 {
+    padding: 60px 0;
+}
+
+.in_section_5 .title_sec_5 {
+    text-align: center;
+    margin: 0 0 40px;
+}
+
+.in_section_5 .title_sec_5 h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    /* Font / Color */
+
+    color: #333333;
+    margin: 0 0 20px;
+}
+
+.in_section_5 .title_sec_5 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    /* Font / Color1 */
+
+    color: #666666;
+
+}
+
+.in_section_5 .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.in_section_5 .card {}
+
+.in_section_5 .image {
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.in_section_5 .image img {
+    width: 100%;
+}
+
+.in_section_5 .number {
+    background: #111111;
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    border-radius: 50%;
+    border: 15px solid white;
+    margin-top: -50px;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.in_section_5 .number:hover {
+    padding: 40px;
+}
+
+.in_section_5 .number h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in_section_5 .txt {
+    text-align: center;
+}
+
+.in_section_5 .txt h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    /* Font / Color */
+
+    color: #333333;
+    margin: 0 0 10px;
+}
+
+.in_section_5 .txt p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    text-align: center;
+
+    /* Font / Color1 */
+
+    color: #666666;
+
+}
+
+.section_6 {
+    background: #F2F5FF;
+    padding: 0 20px;
+}
+
+.in_section_6 {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.in_section_6 .txt {}
+
+.in_section_6 .txt h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    /* Font / Color */
+
+    color: #333333;
+    margin: 0 0 10px;
+}
+
+.in_section_6 .txt p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    /* or 195% */
+
+    text-align: center;
+
+    /* Font / Color1 */
+
+    color: #666666;
+    max-width: 514px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.in_section_6 .input {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #054C73;
+
+}
+
+.in_section_6 .input input {
+    padding: 25px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #011C42;
+    background: #FFFFFF;
+    outline: none;
+}
+
+.in_section_6 .btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+    background: #054C73;
+    padding: 27px 44px;
+    cursor: pointer;
+}
